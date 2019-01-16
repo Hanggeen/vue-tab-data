@@ -1,2 +1,3 @@
 # vue-tab-data
 Sharing data in different tabs reactive...
+##### 在同一个浏览器内，一个页面更改数据，会响应式地更新到另外一个页面
