@@ -5,7 +5,7 @@
   "main": "dist/vue-tab-data.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup --config build/rollup.config.js --es5 & rollup --config build/rollup.config.js --es6"
+    "build": "rollup --config build/rollup.config.js --es6"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,8 @@
     "rollup": "^1.1.0",
     "rollup-plugin-babel": "^4.3.0",
     "rollup-plugin-eslint": "^5.0.0",
-    "rollup-plugin-node-resolve": "^4.0.0"
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^4.0.2"
   },
   "dependencies": {}
 }

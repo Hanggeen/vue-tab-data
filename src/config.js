@@ -1,4 +1,4 @@
 const config = {
-  key: 'VStorageName'
+  key: 'VueTabData'
 }
 export default config

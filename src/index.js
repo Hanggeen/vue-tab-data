@@ -1,7 +1,7 @@
 import mixinData from './data'
 import mixinWatch from './watch'
 import mixinCreated from './created'
-let VStorage = function (params, broadcast = true, listen = true) {
+let vueTabData = function (params, broadcast = true, listen = true) {
   var keyObject = {}
   var keyList = []
   if (typeof params === 'object') {
@@ -35,4 +35,4 @@ let VStorage = function (params, broadcast = true, listen = true) {
   }
 }
 
-export default VStorage
+export default vueTabData
