@@ -28,6 +28,12 @@ npm install vue-tab-data
 
 ## 用法
 ```javascript
+/* 
+    调用vueTabData以生成一个mixin
+    第一个参数为需要注册的data
+    第二个参数为是否需要广播
+    第三个参数为是否需要监听
+*/
 mixin = vueTabData(data, broadcast, listen)
 ```
 ## 例子
